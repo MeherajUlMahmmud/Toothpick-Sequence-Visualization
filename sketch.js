@@ -7,7 +7,6 @@ function setup() {
   let canvas = createCanvas(600, 600);
   canvas.center();
 
-
   minX = -width / 2;
   maxX = width / 2;
 
