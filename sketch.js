@@ -26,7 +26,7 @@ function draw() {
 
   translate(width / 2, height / 2);
   let factor = float(width) / (maxX - minX);
-  scale(factor*0.8);
+  scale(factor * 0.8);
 
   for (var item of toothpickList) {
     item.show(factor);
