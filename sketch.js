@@ -4,13 +4,15 @@ let maxX;
 let toothpickList = [];
 
 function setup() {
-  createCanvas(800, 800);
+  let canvas = createCanvas(600, 600);
+  canvas.center();
+
 
   minX = -width / 2;
   maxX = width / 2;
 
   toothpickList.push(new Toothpick(0, 0, 1));
-  frameRate(2);
+  frameRate(3);
   // noLoop();
 }
 
@@ -25,7 +27,7 @@ function draw() {
 
   translate(width / 2, height / 2);
   let factor = float(width) / (maxX - minX);
-  scale(factor);
+  scale(factor*0.8);
 
   for (var item of toothpickList) {
     item.show(factor);
