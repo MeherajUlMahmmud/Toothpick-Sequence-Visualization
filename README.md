@@ -4,5 +4,6 @@ In geometry, the toothpick sequence is a sequence of 2-dimensional patterns whic
 
 The first stage of the design is a single "toothpick", or line segment. Each stage after the first is formed by taking the previous design and, for every exposed toothpick end, placing another toothpick centered at a right angle on that end.
 
-Reference: [Wikipedia](https://en.wikipedia.org/wiki/Toothpick_sequence)
+For a better visualization, [VISIT HERE](https://oeis.org/A139250/a139250.anim.html)
 
+Reference: [Wikipedia](https://en.wikipedia.org/wiki/Toothpick_sequence)
